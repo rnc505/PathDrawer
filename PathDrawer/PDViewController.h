@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface PDViewController : UIViewController
-
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+@interface PDViewController : UIViewController <MKMapViewDelegate>
+typedef enum {
+    kChoicePoint = 0,
+    kPathConnector
+} PDSegment;
+@property (nonatomic, retain) IBOutlet MKMapView *mkView;
 @end

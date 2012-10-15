@@ -18,6 +18,9 @@
 		D555D0BC161CF384008140C9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D555D0BB161CF384008140C9 /* Default-568h@2x.png */; };
 		D555D0BF161CF384008140C9 /* PDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D555D0BE161CF384008140C9 /* PDViewController.m */; };
 		D555D0C2161CF384008140C9 /* PDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D555D0C0161CF384008140C9 /* PDViewController.xib */; };
+		D555D0C9161CF3DC008140C9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D555D0C8161CF3DC008140C9 /* MapKit.framework */; };
+		D555D0CB161CF3E2008140C9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D555D0CA161CF3E2008140C9 /* CoreLocation.framework */; };
+		D555D0DA161D3C6C008140C9 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = D555D0D9161D3C6C008140C9 /* MapPin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		D555D0BD161CF384008140C9 /* PDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDViewController.h; sourceTree = "<group>"; };
 		D555D0BE161CF384008140C9 /* PDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDViewController.m; sourceTree = "<group>"; };
 		D555D0C1161CF384008140C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PDViewController.xib; sourceTree = "<group>"; };
+		D555D0C8161CF3DC008140C9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D555D0CA161CF3E2008140C9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D555D0D8161D3C6C008140C9 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		D555D0D9161D3C6C008140C9 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D555D0CB161CF3E2008140C9 /* CoreLocation.framework in Frameworks */,
+				D555D0C9161CF3DC008140C9 /* MapKit.framework in Frameworks */,
 				D555D0A6161CF384008140C9 /* UIKit.framework in Frameworks */,
 				D555D0A8161CF384008140C9 /* Foundation.framework in Frameworks */,
 				D555D0AA161CF384008140C9 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +82,8 @@
 		D555D0A4161CF384008140C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D555D0CA161CF3E2008140C9 /* CoreLocation.framework */,
+				D555D0C8161CF3DC008140C9 /* MapKit.framework */,
 				D555D0A5161CF384008140C9 /* UIKit.framework */,
 				D555D0A7161CF384008140C9 /* Foundation.framework */,
 				D555D0A9161CF384008140C9 /* CoreGraphics.framework */,
@@ -83,6 +94,8 @@
 		D555D0AB161CF384008140C9 /* PathDrawer */ = {
 			isa = PBXGroup;
 			children = (
+				D555D0D8161D3C6C008140C9 /* MapPin.h */,
+				D555D0D9161D3C6C008140C9 /* MapPin.m */,
 				D555D0B4161CF384008140C9 /* PDAppDelegate.h */,
 				D555D0B5161CF384008140C9 /* PDAppDelegate.m */,
 				D555D0BD161CF384008140C9 /* PDViewController.h */,
@@ -177,6 +190,7 @@
 				D555D0B2161CF384008140C9 /* main.m in Sources */,
 				D555D0B6161CF384008140C9 /* PDAppDelegate.m in Sources */,
 				D555D0BF161CF384008140C9 /* PDViewController.m in Sources */,
+				D555D0DA161D3C6C008140C9 /* MapPin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
