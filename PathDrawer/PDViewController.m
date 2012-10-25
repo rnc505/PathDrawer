@@ -8,14 +8,17 @@
 
 #import "PDViewController.h"
 #import "MapPin.h"
+#import "Polyline.h"
 @interface PDViewController ()
 {
     int oneTime;
     PDSegment kCurrentSegment;
     UITextField *titleField;
-//    MKPinAnnotationView *lastView;
+    //    MKPinAnnotationView *lastView;
     NSMutableArray *choicePoints;
-    
+    NSMutableArray *paths;
+    UISegmentedControl *control;
+    NSMutableArray *currentPath;
 }
 @end
 
@@ -28,7 +31,7 @@
     }
     if (oneTime == 0){
         oneTime = 1;
-        MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(_mkView.userLocation.location.coordinate, 500, 500);
+        MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(_mkView.userLocation.location.coordinate, 5, 5);
         MKCoordinateRegion adjustedRegion = [_mkView regionThatFits:viewRegion];
         [_mkView setRegion:adjustedRegion animated:YES];
         _mkView.showsUserLocation = NO;
@@ -36,10 +39,25 @@
     
 }
 
+
+
+- (MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id )overlay
+{
+    if([overlay isKindOfClass:[MKPolyline class]]){
+        MKPolylineView *view;
+        view = [[MKPolylineView alloc] initWithPolyline:overlay];
+        view.fillColor = [UIColor redColor];
+        view.strokeColor = [UIColor redColor];
+        view.lineWidth = 20;
+        return view;
+    }
+    return nil;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    lastView = nil;
+    //    lastView = nil;
     oneTime = 0;
     kCurrentSegment = kChoicePoint;
     _mkView.showsUserLocation = YES;
@@ -47,7 +65,8 @@
     UILongPressGestureRecognizer *gesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongTouch:)];
     [gesture setAllowableMovement:0];
     [_mkView addGestureRecognizer:gesture];
-    UISegmentedControl *control = [[UISegmentedControl alloc] initWithItems:[NSArray arrayWithObjects:@"Choice Points",@"Path Connector", nil]];
+    
+    control = [[UISegmentedControl alloc] initWithItems:[NSArray arrayWithObjects:@"Choice Points",@"Path Connector", nil]];
     [control setSelectedSegmentIndex:kCurrentSegment];
     [control addTarget:self action:@selector(segmentedControlChange:) forControlEvents:UIControlEventValueChanged];
     UIBarButtonItem *item = [[UIBarButtonItem alloc] initWithCustomView:control];
@@ -68,9 +87,9 @@
     UIBarButtonItem *delete = [[UIBarButtonItem alloc] initWithCustomView:deleteLastPin];
     
     [self.navigationItem setLeftBarButtonItems:[NSArray arrayWithObjects:textfield,delete,nil]];
-//    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"Choice"];
-//    [[NSUserDefaults standardUserDefaults] synchronize];
-//    return;
+    //    [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"Choice"];
+    //    [[NSUserDefaults standardUserDefaults] synchronize];
+    //    return;
     
     if(![[NSUserDefaults standardUserDefaults] objectForKey:@"Choice"]){
         choicePoints = [NSMutableArray array];
@@ -85,6 +104,15 @@
             [_mkView addAnnotation:pinLocation.annotation];
         }
     }
+    if(![[NSUserDefaults standardUserDefaults] objectForKey:@"Paths"]){
+        paths = [NSMutableArray array];
+    } else {
+        paths = (NSMutableArray*)[NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"Paths"]];
+        for (Polyline *polyline in paths) {
+            // do something with the lines
+        }
+    }
+    currentPath = [NSMutableArray new];
 }
 
 -(void)deleteLast {
@@ -95,17 +123,64 @@
         NSLog(@"afR = %i", [choicePoints count]);
         [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:choicePoints] forKey:@"Choice"];
         [[NSUserDefaults standardUserDefaults] synchronize];
-
-
-//        lastView = nil;
+        
+        
+        //        lastView = nil;
     }
 }
 
--(void)segmentedControlChange:(UISegmentedControl *)control{
-    kCurrentSegment = control.selectedSegmentIndex;
+-(void)segmentedControlChange:(UISegmentedControl *)_control{
+    kCurrentSegment = _control.selectedSegmentIndex;
 }
 
 -(void)handleLongTouch:(UIGestureRecognizer *)gest {
+    
+    switch (control.selectedSegmentIndex) {
+        case kChoicePoint:
+            [self choicePointActions:gest];
+            break;
+            
+        case kPathConnector:
+            [self pathConnectorActions:gest];
+            break;
+        default:
+            break;
+    }
+    
+    
+    
+}
+
+-(void)pathConnectorActions:(UIGestureRecognizer*)gest{
+    /*  DEBUGGING STATE
+    NSLog(@"state: %i",gest.state);
+    CGPoint location = [gest locationInView:_mkView];
+    CLLocationCoordinate2D coord= [_mkView convertPoint:location toCoordinateFromView:_mkView];
+    NSLog(@"<%f, %f>",coord.latitude,coord.longitude);
+     */
+    CGPoint location = [gest locationInView:_mkView];
+    CLLocationCoordinate2D coord= [_mkView convertPoint:location toCoordinateFromView:_mkView];
+    CLLocation *tempLoc = [[CLLocation alloc] initWithLatitude:coord.latitude longitude:coord.longitude];
+    if(gest.state == UIGestureRecognizerStateBegan){ // Path Began -- Finger down
+        [currentPath addObject:tempLoc];
+    } else if(gest.state == UIGestureRecognizerStateChanged){ // Path being drawn
+        [currentPath addObject:tempLoc];
+    } else if(gest.state == UIGestureRecognizerStateEnded){ // Path Ended -- Finger up
+        [currentPath addObject:tempLoc];
+        CLLocationCoordinate2D coordinates[currentPath.count];
+        for (int i = 0; i < currentPath.count; i++) {
+            coordinates[i] = ((CLLocation*)[currentPath objectAtIndex:i]).coordinate;
+        }
+        MKPolyline *newPath = [MKPolyline polylineWithCoordinates:coordinates count:currentPath.count];
+        [paths addObject:newPath];
+        currentPath = [NSMutableArray new];
+        // TEMP
+        [_mkView addOverlay:newPath];
+    }
+    
+}
+
+-(void)choicePointActions:(UIGestureRecognizer*)gest{
     if (gest.state == UIGestureRecognizerStateBegan) {
         CGPoint location = [gest locationInView:_mkView];
         CLLocationCoordinate2D coord= [_mkView convertPoint:location toCoordinateFromView:_mkView];
@@ -113,18 +188,16 @@
         MapPin *pin = [[MapPin alloc] initWithCoordinates:coord placeName:titleField.text description:[[NSString alloc] initWithFormat:@"<%f, %f>",coord.latitude,coord.longitude]];
         MKPinAnnotationView *pinLocation = [[MKPinAnnotationView alloc] initWithAnnotation:pin reuseIdentifier:@"identifier"];
         [pinLocation setAnimatesDrop:YES];
-//        [pinLocation setCanShowCallout:NO];
+        //        [pinLocation setCanShowCallout:NO];
         [pinLocation setDraggable:NO];
         [pinLocation setPinColor:MKPinAnnotationColorRed];
         [_mkView addAnnotation:pinLocation.annotation];
         [choicePoints addObject:pin];
         [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:choicePoints] forKey:@"Choice"];
         [[NSUserDefaults standardUserDefaults] synchronize];
-//        lastView = nil;
-//        lastView = pinLocation;
-        
+        //        lastView = nil;
+        //        lastView = pinLocation;
     }
-    
 }
 
 
