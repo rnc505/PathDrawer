@@ -43,10 +43,10 @@
 
 - (MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id )overlay
 {
-    if([overlay isKindOfClass:[MKPolyline class]]){
+    if([overlay isKindOfClass:[Polyline class]]){
         MKPolylineView *view;
         view = [[MKPolylineView alloc] initWithPolyline:overlay];
-        view.fillColor = [UIColor redColor];
+        view.fillColor = [UIColor colorWithRed:1.0 green:0 blue:0 alpha:.5f];
         view.strokeColor = [UIColor redColor];
         view.lineWidth = 20;
         return view;
@@ -108,9 +108,7 @@
         paths = [NSMutableArray array];
     } else {
         paths = (NSMutableArray*)[NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"Paths"]];
-        for (Polyline *polyline in paths) {
-            // do something with the lines
-        }
+        [_mkView addOverlays:paths];
     }
     currentPath = [NSMutableArray new];
 }
@@ -158,6 +156,7 @@
     CLLocationCoordinate2D coord= [_mkView convertPoint:location toCoordinateFromView:_mkView];
     NSLog(@"<%f, %f>",coord.latitude,coord.longitude);
      */
+    NSLog(@"%@",[NSDate date]);
     CGPoint location = [gest locationInView:_mkView];
     CLLocationCoordinate2D coord= [_mkView convertPoint:location toCoordinateFromView:_mkView];
     CLLocation *tempLoc = [[CLLocation alloc] initWithLatitude:coord.latitude longitude:coord.longitude];
@@ -171,11 +170,14 @@
         for (int i = 0; i < currentPath.count; i++) {
             coordinates[i] = ((CLLocation*)[currentPath objectAtIndex:i]).coordinate;
         }
-        MKPolyline *newPath = [MKPolyline polylineWithCoordinates:coordinates count:currentPath.count];
+//        MKPolyline *newPath = [MKPolyline polylineWithCoordinates:coordinates count:currentPath.count];
+        Polyline *newPath = [[Polyline alloc] initWithCoordinates:coordinates count:currentPath.count];
+        [_mkView addOverlay:newPath];
         [paths addObject:newPath];
+        [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:paths] forKey:@"Paths"];
         currentPath = [NSMutableArray new];
         // TEMP
-        [_mkView addOverlay:newPath];
+        
     }
     
 }
