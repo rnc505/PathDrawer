@@ -8,10 +8,12 @@
 
 #import "PDViewController.h"
 #import "MapPin.h"
-#import "Polyline.h"
+//#import "Polyline.h"
+#include <stdlib.h>
 @interface PDViewController ()
 {
     int oneTime;
+    int thirdTime;
     PDSegment kCurrentSegment;
     UITextField *titleField;
     //    MKPinAnnotationView *lastView;
@@ -39,15 +41,17 @@
     
 }
 
+-(void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
 
+}
 
 - (MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id )overlay
 {
-    if([overlay isKindOfClass:[Polyline class]]){
+    if([overlay isKindOfClass:[MKPolyline class]]){
         MKPolylineView *view;
         view = [[MKPolylineView alloc] initWithPolyline:overlay];
-        view.fillColor = [UIColor colorWithRed:1.0 green:0 blue:0 alpha:.5f];
-        view.strokeColor = [UIColor redColor];
+//        view.fillColor = [UIColor redColor];
+        view.strokeColor = [UIColor colorWithRed:1.f green:0 blue:0 alpha:.5f];
         view.lineWidth = 20;
         return view;
     }
@@ -59,13 +63,14 @@
     [super viewDidLoad];
     //    lastView = nil;
     oneTime = 0;
+    thirdTime = 0;
     kCurrentSegment = kChoicePoint;
     _mkView.showsUserLocation = YES;
     [_mkView setMapType:MKMapTypeHybrid];
     UILongPressGestureRecognizer *gesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongTouch:)];
     [gesture setAllowableMovement:0];
     [_mkView addGestureRecognizer:gesture];
-    
+    _mkView.delegate = self;
     control = [[UISegmentedControl alloc] initWithItems:[NSArray arrayWithObjects:@"Choice Points",@"Path Connector", nil]];
     [control setSelectedSegmentIndex:kCurrentSegment];
     [control addTarget:self action:@selector(segmentedControlChange:) forControlEvents:UIControlEventValueChanged];
@@ -107,11 +112,32 @@
     if(![[NSUserDefaults standardUserDefaults] objectForKey:@"Paths"]){
         paths = [NSMutableArray array];
     } else {
+        NSMutableArray *overlays = [NSMutableArray new];
         paths = (NSMutableArray*)[NSKeyedUnarchiver unarchiveObjectWithData:[[NSUserDefaults standardUserDefaults] objectForKey:@"Paths"]];
-        [_mkView addOverlays:paths];
+        for (NSArray *path in paths) {
+            CLLocationCoordinate2D* coords = malloc(path.count * sizeof(CLLocationCoordinate2D));
+            for (int i = 0; i < path.count; i++)
+            {
+                CLLocation* current = [path objectAtIndex:i];
+                coords[i] = current.coordinate;
+            }
+            
+            //        MKPolyline *newPath = [MKPolyline polylineWithCoordinates:coordinates count:currentPath.count];
+            //        Polyline *newPath = [[Polyline alloc] initWithCoordinates:coordinates count:currentPath.count];
+            //        Polyline *newPath = [[Polyline alloc] initWithArray:currentPath count:currentPath.count];
+            MKPolyline *newPath = [MKPolyline polylineWithCoordinates:coords count:path.count];
+//            NSLog(@"(%f, %f) -- (%f, %f) ",newPath.boundingMapRect.origin.x,newPath.boundingMapRect.origin.y,newPath.boundingMapRect.size.width,newPath.boundingMapRect.size.height);
+            [overlays addObject:newPath];
+            [_mkView addOverlay:newPath];
+//            [_mkView setNeedsDisplay];
+        }
+//            [_mkView addOverlays:overlays];
+
     }
+    NSLog(@"%@",_mkView.overlays.description);
     currentPath = [NSMutableArray new];
 }
+
 
 -(void)deleteLast {
     if(choicePoints.count > 0){
@@ -166,16 +192,26 @@
         [currentPath addObject:tempLoc];
     } else if(gest.state == UIGestureRecognizerStateEnded){ // Path Ended -- Finger up
         [currentPath addObject:tempLoc];
-        CLLocationCoordinate2D coordinates[currentPath.count];
-        for (int i = 0; i < currentPath.count; i++) {
-            coordinates[i] = ((CLLocation*)[currentPath objectAtIndex:i]).coordinate;
+        CLLocationCoordinate2D* coords = malloc(currentPath.count * sizeof(CLLocationCoordinate2D));
+        for (int i = 0; i < currentPath.count; i++)
+        {
+            CLLocation* current = [currentPath objectAtIndex:i];
+            coords[i] = current.coordinate;
         }
+
 //        MKPolyline *newPath = [MKPolyline polylineWithCoordinates:coordinates count:currentPath.count];
-        Polyline *newPath = [[Polyline alloc] initWithCoordinates:coordinates count:currentPath.count];
+//        Polyline *newPath = [[Polyline alloc] initWithCoordinates:coordinates count:currentPath.count];
+//        Polyline *newPath = [[Polyline alloc] initWithArray:currentPath count:currentPath.count];
+        MKPolyline *newPath = [MKPolyline polylineWithCoordinates:coords count:currentPath.count];
+//        NSLog(@"(%f, %f) -- (%f, %f) ",newPath.boundingMapRect.origin.x,newPath.boundingMapRect.origin.y,newPath.boundingMapRect.size.width,newPath.boundingMapRect.size.height);
+//        newPath.boundingMapRect = MKMapRectWorld;
         [_mkView addOverlay:newPath];
-        [paths addObject:newPath];
+        [_mkView setNeedsDisplay];
+        [paths addObject:currentPath];
         [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:paths] forKey:@"Paths"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
         currentPath = [NSMutableArray new];
+        
         // TEMP
         
     }

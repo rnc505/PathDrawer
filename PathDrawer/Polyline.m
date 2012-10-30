@@ -16,7 +16,10 @@
     self = [super init];
     if(self){
         NSMutableArray *retVal = [NSMutableArray new];
-        for (int i = 0; i < sizeof(coords); i++) {
+//        size_t sizeOfCoords = sizeof(coords);
+//        size_t sizeOfCoord1 = sizeof(CLLocationCoordinate2D);
+        
+        for (int i = 0; i < (sizeof(coords)/sizeof(CLLocationCoordinate2D)); i++) {
             [retVal addObject:[[CLLocation alloc]initWithLatitude:coords[i].latitude longitude:coords[i].longitude]];
         }
         _coordinates = retVal;
@@ -26,13 +29,33 @@
     
 }
 
+-(CLLocationCoordinate2D)coordinate{
+    return self.coordinate;
+}
+
+-(MKMapRect)boundingMapRect{
+    return self.boundingMapRect;
+}
+
+
 
 -(id)initWithArray:(NSArray *)array count:(NSInteger) count {
-    CLLocationCoordinate2D coords[count];
-    for(int i = 0; i < count; i++){
-        coords[i] = ((CLLocation*)[array objectAtIndex:i]).coordinate;
+    
+    CLLocationCoordinate2D* coords = malloc(count * sizeof(CLLocationCoordinate2D));
+    for (int i = 0; i < count; i++)
+    {
+        CLLocation* current = [array objectAtIndex:i];
+        coords[i] = current.coordinate;
     }
-    return [self initWithCoordinates:coords count:count];
+    
+    Polyline* _temp = [self initWithCoordinates:coords count:count];
+    free(coords);
+    return _temp;
+//    CLLocationCoordinate2D coords[count];
+//    for(int i = 0; i < count; i++){
+//        coords[i] = ((CLLocation*)[array objectAtIndex:i]).coordinate;
+//    }
+//    return [self initWithCoordinates:coords count:count];
 }
 
 -(void)encodeWithCoder:(NSCoder *)aCoder {

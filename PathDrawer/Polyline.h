@@ -8,7 +8,7 @@
 
 #import <MapKit/MapKit.h>
 
-@interface Polyline : MKPolyline <NSCoding>
+@interface Polyline : MKPolyline <NSCoding, MKOverlay>
 
 -(id)initWithCoordinates:(CLLocationCoordinate2D *)coords count:(NSUInteger)count;
 -(id)initWithArray:(NSArray*)array count:(NSInteger)count;
