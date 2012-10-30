@@ -140,18 +140,40 @@
 
 
 -(void)deleteLast {
-    if(choicePoints.count > 0){
-        [_mkView removeAnnotation:((MapPin*)[choicePoints lastObject])];
-        NSLog(@"b4 = %i",[choicePoints count]);
-        [choicePoints removeLastObject];
-        NSLog(@"afR = %i", [choicePoints count]);
-        [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:choicePoints] forKey:@"Choice"];
-        [[NSUserDefaults standardUserDefaults] synchronize];
-        
-        
-        //        lastView = nil;
+    switch (control.selectedSegmentIndex) {
+        case kChoicePoint:
+            if(choicePoints.count > 0){
+                [_mkView removeAnnotation:((MapPin*)[choicePoints lastObject])];
+                NSLog(@"b4 = %i",[choicePoints count]);
+                [choicePoints removeLastObject];
+                NSLog(@"afR = %i", [choicePoints count]);
+                [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:choicePoints] forKey:@"Choice"];
+                [[NSUserDefaults standardUserDefaults] synchronize];
+                
+                
+                //        lastView = nil;
+            }
+            break;
+            
+        case kPathConnector:
+            if(paths.count > 0){
+//                [_mkView removeAnnotation:((MapPin*)[choicePoints lastObject])];
+                [_mkView removeOverlay:((MKPolyline*)_mkView.overlays.lastObject)];
+//                NSLog(@"b4 = %i",[choicePoints count]);
+                [paths removeLastObject];
+//                NSLog(@"afR = %i", [choicePoints count]);
+                [[NSUserDefaults standardUserDefaults] setObject:[NSKeyedArchiver archivedDataWithRootObject:paths] forKey:@"Paths"];
+                [[NSUserDefaults standardUserDefaults] synchronize];
+                
+                
+                //        lastView = nil;
+            }
+            break;
+        default:
+            break;
     }
-}
+
+    }
 
 -(void)segmentedControlChange:(UISegmentedControl *)_control{
     kCurrentSegment = _control.selectedSegmentIndex;
