@@ -14,6 +14,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+//    [[NSUserDefaults standardUserDefaults] setObject:nil forKey:@"Paths"];
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[UINavigationController alloc]initWithRootViewController:[[PDViewController alloc] initWithNibName:@"PDViewController" bundle:nil]];

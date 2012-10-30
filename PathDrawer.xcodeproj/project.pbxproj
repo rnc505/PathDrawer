@@ -21,6 +21,7 @@
 		D555D0C9161CF3DC008140C9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D555D0C8161CF3DC008140C9 /* MapKit.framework */; };
 		D555D0CB161CF3E2008140C9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D555D0CA161CF3E2008140C9 /* CoreLocation.framework */; };
 		D555D0DA161D3C6C008140C9 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = D555D0D9161D3C6C008140C9 /* MapPin.m */; };
+		D560EDD9163705C7002BC402 /* Polyline.m in Sources */ = {isa = PBXBuildFile; fileRef = D560EDD8163705C7002BC402 /* Polyline.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		D555D0CA161CF3E2008140C9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D555D0D8161D3C6C008140C9 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
 		D555D0D9161D3C6C008140C9 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		D560EDD7163705C7002BC402 /* Polyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polyline.h; sourceTree = "<group>"; };
+		D560EDD8163705C7002BC402 /* Polyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polyline.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				D555D0BE161CF384008140C9 /* PDViewController.m */,
 				D555D0C0161CF384008140C9 /* PDViewController.xib */,
 				D555D0AC161CF384008140C9 /* Supporting Files */,
+				D560EDD7163705C7002BC402 /* Polyline.h */,
+				D560EDD8163705C7002BC402 /* Polyline.m */,
 			);
 			path = PathDrawer;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 				D555D0B6161CF384008140C9 /* PDAppDelegate.m in Sources */,
 				D555D0BF161CF384008140C9 /* PDViewController.m in Sources */,
 				D555D0DA161D3C6C008140C9 /* MapPin.m in Sources */,
+				D560EDD9163705C7002BC402 /* Polyline.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +314,7 @@
 				D555D0C7161CF384008140C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
