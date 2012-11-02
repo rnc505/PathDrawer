@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface PolylineArray : NSObject
-
+@interface PolylineArray : NSObject <NSCoding>
+@property (nonatomic, retain) NSString *startPoint;
+@property (nonatomic, retain) NSString *endPoint;
+@property (nonatomic, retain) NSArray *points;
+-(id)initWithStart:(NSString*)start end:(NSString*)end andPointsArray:(NSArray*)points;
 @end

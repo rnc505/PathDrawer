@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D541A05F1642E882001AB907 /* PolylineArray.m in Sources */ = {isa = PBXBuildFile; fileRef = D541A05E1642E882001AB907 /* PolylineArray.m */; };
 		D555D0A6161CF384008140C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D555D0A5161CF384008140C9 /* UIKit.framework */; };
 		D555D0A8161CF384008140C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D555D0A7161CF384008140C9 /* Foundation.framework */; };
 		D555D0AA161CF384008140C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D555D0A9161CF384008140C9 /* CoreGraphics.framework */; };
@@ -22,9 +23,12 @@
 		D555D0CB161CF3E2008140C9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D555D0CA161CF3E2008140C9 /* CoreLocation.framework */; };
 		D555D0DA161D3C6C008140C9 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = D555D0D9161D3C6C008140C9 /* MapPin.m */; };
 		D560EDD9163705C7002BC402 /* Polyline.m in Sources */ = {isa = PBXBuildFile; fileRef = D560EDD8163705C7002BC402 /* Polyline.m */; };
+		D5D8444F1640404100B048B9 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D8444E1640404100B048B9 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D541A05D1642E882001AB907 /* PolylineArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolylineArray.h; sourceTree = "<group>"; };
+		D541A05E1642E882001AB907 /* PolylineArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolylineArray.m; sourceTree = "<group>"; };
 		D555D0A1161CF384008140C9 /* PathDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D555D0A5161CF384008140C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D555D0A7161CF384008140C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,6 +51,8 @@
 		D555D0D9161D3C6C008140C9 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		D560EDD7163705C7002BC402 /* Polyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polyline.h; sourceTree = "<group>"; };
 		D560EDD8163705C7002BC402 /* Polyline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polyline.m; sourceTree = "<group>"; };
+		D5D8444D1640404100B048B9 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		D5D8444E1640404100B048B9 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,16 @@
 		D555D0AB161CF384008140C9 /* PathDrawer */ = {
 			isa = PBXGroup;
 			children = (
+				D5D8444D1640404100B048B9 /* JSONKit.h */,
+				D5D8444E1640404100B048B9 /* JSONKit.m */,
 				D555D0D8161D3C6C008140C9 /* MapPin.h */,
 				D555D0D9161D3C6C008140C9 /* MapPin.m */,
 				D555D0B4161CF384008140C9 /* PDAppDelegate.h */,
 				D555D0B5161CF384008140C9 /* PDAppDelegate.m */,
 				D555D0BD161CF384008140C9 /* PDViewController.h */,
 				D555D0BE161CF384008140C9 /* PDViewController.m */,
+				D541A05D1642E882001AB907 /* PolylineArray.h */,
+				D541A05E1642E882001AB907 /* PolylineArray.m */,
 				D555D0C0161CF384008140C9 /* PDViewController.xib */,
 				D555D0AC161CF384008140C9 /* Supporting Files */,
 				D560EDD7163705C7002BC402 /* Polyline.h */,
@@ -197,6 +207,8 @@
 				D555D0BF161CF384008140C9 /* PDViewController.m in Sources */,
 				D555D0DA161D3C6C008140C9 /* MapPin.m in Sources */,
 				D560EDD9163705C7002BC402 /* Polyline.m in Sources */,
+				D5D8444F1640404100B048B9 /* JSONKit.m in Sources */,
+				D541A05F1642E882001AB907 /* PolylineArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
