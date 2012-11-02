@@ -1,0 +1,493 @@
+TPathDrawer
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Info.plist" PathDrawer/PathDrawer-Info.plist
+cProcessPCH "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch.pth" PathDrawer/PathDrawer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-evoxhgfoatouhvfnagqkdpnyccwf/PathDrawer-Prefix.pch.pth" PathDrawer/PathDrawer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDViewController.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/main.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDAppDelegate.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/Polyline.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Polyline.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PolylineArray.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PolylineArray.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/JSONKit.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/JSONKit.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/MapPin.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/MapPin.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawer" normal i386
+cGenerateDSYMFile "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app.dSYM" "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawer"
+cCpResource PathDrawer/Default.png DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default.png
+cCopyStringsFile "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/en.lproj/InfoPlist.strings" PathDrawer/en.lproj/InfoPlist.strings
+cCpResource PathDrawer/Default@2x.png DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default@2x.png
+cCpResource PathDrawer/Default-568h@2x.png DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default-568h@2x.png
+cCompileXIB "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/en.lproj/PDViewController.xib"
+cTouch "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c000000005092F0910000000000000110
+t1351807121
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000505A2E010000000000228FD0
+t1348087297
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000505A2E01000000000009C220
+t1348087297
+s639520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c00000000505A2E010000000000000279
+t1348087297
+s633
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000505A2E0200000000003DCEF0
+t1348087298
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c00000000505A2E0200000000000015F7
+t1348087298
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c00000000505A2E020000000000000396
+t1348087298
+s918
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c00000000505A2E0300000000000F5690
+t1348087299
+s1005200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c00000000505A2E030000000000000E8D
+t1348087299
+s3725
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000505A2E040000000000AB3D60
+t1348087300
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/usr/include/Availability.h
+c00000000505A2E0A0000000000001B54
+t1348087306
+s6996
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/JSONKit.o
+t1351716444
+s261376
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/MapPin.o
+t1351716444
+s14900
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDAppDelegate.o
+t1351877722
+s91944
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDViewController.o
+t1351891798
+s130908
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PathDrawer.LinkFileList
+c000000005092B25000000000000004E2
+t1351791184
+s1250
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/Polyline.o
+t1351790548
+s19756
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PolylineArray.o
+t1351791184
+s13096
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/main.o
+t1351716444
+s3328
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-evoxhgfoatouhvfnagqkdpnyccwf/PathDrawer-Prefix.pch.pth
+t1351716444
+s5029776
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch.pth
+t1351716444
+s5040808
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app
+t1351891798
+s306
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app.dSYM
+t1351891798
+s102
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default-568h@2x.png
+t1351716444
+s18594
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default.png
+t1351716444
+s6540
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default@2x.png
+t1351716444
+s16107
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Info.plist
+t1351872365
+s858
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawer
+t1351891798
+s212588
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PkgInfo
+t1351872365
+s8
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/en.lproj/InfoPlist.strings
+t1351716444
+s42
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/en.lproj/PDViewController.nib
+t1351716445
+s1467
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Default-568h@2x.png
+c0000000050262AB100000000000048A2
+t1344678577
+s18594
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Default.png
+c0000000050262AB1000000000000198C
+t1344678577
+s6540
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Default@2x.png
+c0000000050262AB10000000000003EEB
+t1344678577
+s16107
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/JSONKit.h
+c000000004FFEEDF60000000000002DBE
+t1342107126
+s11710
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/JSONKit.m
+c000000004FFEEDF6000000000002B471
+t1342107126
+s177265
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/MapPin.h
+c00000000506E427B0000000000000248
+t1349403259
+s584
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/MapPin.m
+c00000000506F4F4300000000000004DB
+t1349472067
+s1243
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDAppDelegate.h
+c00000000506CBE47000000000000017D
+t1349303879
+s381
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDAppDelegate.m
+c000000005090066E00000000000009D0
+t1351616110
+s2512
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDViewController.h
+c000000005094045300000000000001CC
+t1351877715
+s460
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDViewController.m
+c0000000050943CD600000000000040D8
+t1351892182
+s16600
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PathDrawer-Prefix.pch
+c00000000509008CD00000000000001A3
+t1351616717
+s419
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<MapKit/MapKit.h>
+i<CoreLocation/CoreLocation.h>
+i"JSONKit.h"
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Polyline.h
+c000000005090066E00000000000001D7
+t1351616110
+s471
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Polyline.m
+c000000005092AFD400000000000007D3
+t1351790548
+s2003
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PolylineArray.h
+c000000005092B19E00000000000001D1
+t1351791006
+s465
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PolylineArray.m
+c000000005092B24100000000000003A9
+t1351791169
+s937
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/en.lproj/InfoPlist.strings
+c00000000506CBC04000000000000002D
+t1349303300
+s45
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/en.lproj/PDViewController.xib
+c00000000506CFE290000000000002F38
+t1349320233
+s12088
+
+N/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/main.m
+c000000005090066E0000000000000155
+t1351616110
+s341
+
+NPathDrawer/PathDrawer-Info.plist
+c00000000506CBC0400000000000004D4
+t1349303300
+s1236
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/JSONKit.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/MapPin.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDAppDelegate.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDViewController.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Polyline.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PolylineArray.m"
+r0
+
+CBuild AST from "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5af4ce567444b641^ec33cf567444b641^---0#1#0#--18"Check dependencies36"61C82D22-E9B4-4357-B924-31CE6F72CC2D-
+
+CCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/JSONKit.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/JSONKit.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373409244.698084
+e373409244.920590
+r1
+xCompileC
+xDerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/JSONKit.o
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/JSONKit.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/JSONKit.mf9d7b2dcc541b641^97abebdcc541b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/JSONKit.m0000000000000000^4176"CompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/JSONKit.o PathDrawer/JSONKit.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator" -fno-objc-arc -include "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-evoxhgfoatouhvfnagqkdpnyccwf/PathDrawer-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/JSONKit.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/JSONKit.dia" -c "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/JSONKit.m" -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/JSONKit.o"36"C83EE76F-D0DC-4810-A6A5-78C0155B101C-
+
+CCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/MapPin.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/MapPin.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373409244.710293
+e373409244.743834
+r1
+xCompileC
+xDerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/MapPin.o
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/MapPin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/MapPin.m15fdb5dcc541b641^ad6dbedcc541b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/MapPin.m0000000000000000^4156"CompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/MapPin.o PathDrawer/MapPin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/MapPin.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/MapPin.dia" -c "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/MapPin.m" -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/MapPin.o"36"FC942E91-389D-4B81-A095-5B6156727F89-
+
+CCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDAppDelegate.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDAppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373570522.340149
+e373570522.403508
+r1
+xCompileC
+xDerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDAppDelegate.o
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDAppDelegate.ma03557da3b44b641^f54c67da3b44b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/PDAppDelegate.m0000000000000000^4198"CompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDAppDelegate.o PathDrawer/PDAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDAppDelegate.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDAppDelegate.dia" -c "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDAppDelegate.m" -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDAppDelegate.o"36"6CE4186C-E238-447E-A61A-FB1703EC8DB9-
+
+CCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDViewController.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373584982.830059
+e373584982.905504
+r1
+xCompileC
+xDerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDViewController.o
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDViewController.mb1a4d4567444b641^0bcfe7567444b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/PDViewController.m0000000000000000^4216"CompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDViewController.o PathDrawer/PDViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDViewController.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDViewController.dia" -c "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PDViewController.m" -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PDViewController.o"36"595B1551-7125-44B5-ADC6-1A2E9C66EB63-
+
+CCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/Polyline.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Polyline.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373483348.509383
+e373483348.718452
+r1
+xCompileC
+xDerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/Polyline.o
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Polyline.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Polyline.md6a98254e742b641^46ecb754e742b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/Polyline.m0000000000000000^4168"CompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/Polyline.o PathDrawer/Polyline.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/Polyline.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/Polyline.dia" -c "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Polyline.m" -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/Polyline.o"36"D30C2E7D-BB99-4D20-A948-8BD886EBE91A-
+
+CCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PolylineArray.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PolylineArray.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373483984.647670
+e373483984.673130
+r1
+xCompileC
+xDerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PolylineArray.o
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PolylineArray.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PolylineArray.md8efa5d0e942b641^6551acd0e942b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/PolylineArray.m0000000000000000^4198"CompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PolylineArray.o PathDrawer/PolylineArray.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PolylineArray.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PolylineArray.dia" -c "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PolylineArray.m" -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PolylineArray.o"36"AC45964A-5258-4C7D-884C-E062E0FB2F4E-
+
+CCompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/main.o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373409244.710272
+e373409244.739300
+r1
+xCompileC
+xDerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/main.o
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/main.m3bfcb5dcc541b641^af43bddcc541b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/main.m0000000000000000^4144"CompileC DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/main.o PathDrawer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator" -include "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/main.dia" -c "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/main.m" -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/main.o"36"131FFC51-FE25-410D-8CE1-B4399D3369B8-
+
+CCompileXIB "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/en.lproj/PDViewController.xib"
+s373409244.992088
+e373409245.014540
+r1
+xCompileXIB
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/en.lproj/PDViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compiling /Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/en.lproj/PDViewController.xibd80efedcc541b641^f9bf03ddc541b641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/en.lproj/PDViewController.xib0000000000000000^991"CompileXIB PathDrawer/en.lproj/PDViewController.xib    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/en.lproj/PDViewController.nib" "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/en.lproj/PDViewController.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"14EE9CB4-7D7F-4826-B53F-B5DF02557DD3-
+
+CCopyStringsFile "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/en.lproj/InfoPlist.strings" PathDrawer/en.lproj/InfoPlist.strings
+s373409244.992067
+e373409244.996552
+r1
+xCopyStringsFile
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/en.lproj/InfoPlist.strings
+xPathDrawer/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy PathDrawer/en.lproj/InfoPlist.strings0f0efedcc541b641^081effdcc541b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/en.lproj/InfoPlist.strings0000000000000000^671"CopyStringsFile DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/en.lproj/InfoPlist.strings PathDrawer/en.lproj/InfoPlist.strings    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/en.lproj" -- PathDrawer/en.lproj/InfoPlist.strings36"753B3918-FD99-4976-BB95-2F66025BDDC8-
+
+CCpResource PathDrawer/Default-568h@2x.png DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default-568h@2x.png
+s373409244.992083
+e373409244.994126
+r1
+xCpResource
+xPathDrawer/Default-568h@2x.png
+xDerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default-568h@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default-568h@2x.png630afedcc541b641^7781fedcc541b641^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default-568h@2x.png000000000080d041^708"CpResource "PathDrawer/Default-568h@2x.png" "DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default-568h@2x.png"    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Default-568h@2x.png" "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app"36"6CE625CC-7E10-48BE-9D94-8D7ED0A955AF-
+
+CCpResource PathDrawer/Default.png DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default.png
+s373409244.992044
+e373409244.995150
+r1
+xCpResource
+xPathDrawer/Default.png
+xDerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default.png2409fedcc541b641^dfc2fedcc541b641^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default.png000000000080d041^680"CpResource PathDrawer/Default.png DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default.png    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Default.png" "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app"36"879FAB8F-FADF-484E-89E1-97369CABEBB9-
+
+CCpResource PathDrawer/Default@2x.png DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default@2x.png
+s373409244.992077
+e373409244.997430
+r1
+xCpResource
+xPathDrawer/Default@2x.png
+xDerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default@2x.pnged0dfedcc541b641^c557ffdcc541b641^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default@2x.png000000000080d041^693"CpResource "PathDrawer/Default@2x.png" "DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Default@2x.png"    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/Default@2x.png" "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app"36"793B405E-D3A1-4BA2-9F0F-E8587D6D27DB-
+
+CGenerateDSYMFile "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app.dSYM" "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawer"
+s373584982.948363
+e373584982.971592
+r1
+xGenerateDSYMFile
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app.dSYM
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawer
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Generating /Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app.dSYM890cf3567444b641^13b9f8567444b641^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app.dSYM/0000000000000000^801"GenerateDSYMFile DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app.dSYM DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawer    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawer" -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app.dSYM"36"0AEBC34E-F172-4147-BB69-188F53E4BDDA-
+
+CLd "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawer" normal i386
+s373584982.911742
+e373584982.939282
+r1
+xLd
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawer
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Link /Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawerdc7ee9567444b641^2174f0567444b641^---0#0#0#--1425"Ld DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawer normal i386    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk "-L/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator" "-F/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator" -filelist "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/Objects-normal/i386/PathDrawer.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework CoreLocation -framework MapKit -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PathDrawer"36"60DF4A4C-9F9F-4DE3-847F-92115FE7A3D8-
+
+CProcessInfoPlistFile "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Info.plist" PathDrawer/PathDrawer-Info.plist
+s373565165.955668
+e373565165.958081
+r1
+xProcessInfoPlistFile
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Info.plist
+xPathDrawer/PathDrawer-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process PathDrawer/PathDrawer-Info.plist4eb7f4ed2644b641^e964f5ed2644b641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/PathDrawer-Info.plist0000000000000000^797"ProcessInfoPlistFile DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Info.plist PathDrawer/PathDrawer-Info.plist    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility PathDrawer/PathDrawer-Info.plist -genpkginfo "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app/Info.plist"36"959E63F3-D414-43C1-A47D-13C8FA90B053-
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-evoxhgfoatouhvfnagqkdpnyccwf/PathDrawer-Prefix.pch.pth" PathDrawer/PathDrawer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373409244.463284
+e373409244.691612
+r1
+xProcessPCH
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-evoxhgfoatouhvfnagqkdpnyccwf/PathDrawer-Prefix.pch.pth
+xPathDrawer/PathDrawer-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile PathDrawer/PathDrawer-Prefix.pch4eb576dcc541b641^1f0fb1dcc541b641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/PathDrawer-Prefix.pch0000000000000000^4040"ProcessPCH DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-evoxhgfoatouhvfnagqkdpnyccwf/PathDrawer-Prefix.pch.pth PathDrawer/PathDrawer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator" -fno-objc-arc --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-evoxhgfoatouhvfnagqkdpnyccwf/PathDrawer-Prefix.pch.dia" -c "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PathDrawer-Prefix.pch" -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-evoxhgfoatouhvfnagqkdpnyccwf/PathDrawer-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-evoxhgfoatouhvfnagqkdpnyccwf/PathDrawer-Prefix.pch.d"36"40D56D7C-14BA-41B3-9165-3F617C1C2F2E-
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch.pth" PathDrawer/PathDrawer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s373409244.463278
+e373409244.703359
+r1
+xProcessPCH
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch.pth
+xPathDrawer/PathDrawer-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile PathDrawer/PathDrawer-Prefix.pch91b576dcc541b641^c710b4dcc541b641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/Robby/Desktop/Xcode%20Projects/PathDrawer/PathDrawer/PathDrawer-Prefix.pch0000000000000000^4026"ProcessPCH DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch.pth PathDrawer/PathDrawer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=6.0 -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-generated-files.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-own-target-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-all-target-headers.hmap" -iquote "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/PathDrawer-project-headers.hmap" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources/i386" "-I/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PathDrawer.build/Debug-iphonesimulator/PathDrawer.build/DerivedSources" "-F/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator" --serialize-diagnostics "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch.dia" -c "/Users/Robby/Desktop/Xcode Projects/PathDrawer/PathDrawer/PathDrawer-Prefix.pch" -o "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Intermediates/PrecompiledHeaders/PathDrawer-Prefix-frdumzuwkwhnvuaphwbcybzwbjoo/PathDrawer-Prefix.pch.d"36"B0D25530-07A8-49FE-ABCB-6CB8EEBA4239-
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Index/PrecompiledHeaders/PathDrawer-Prefix-dnodtgduhbhqpmdxgwgixqkstivy_ast/PathDrawer-Prefix.pch.pth" PathDrawer/PathDrawer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Index/PrecompiledHeaders/PathDrawer-Prefix-fghhblckoyidvlaebtrihutjpohx_ast/PathDrawer-Prefix.pch.pth" PathDrawer/PathDrawer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app"
+s373584982.988307
+e373584982.993843
+r1
+xTouch
+x/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection127"Touch /Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app1f0ffd567444b641^656efe567444b641^---0#0#0#--478"Touch DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app    cd "/Users/Robby/Desktop/Xcode Projects/PathDrawer"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/Robby/Desktop/Xcode Projects/PathDrawer/DerivedData/PathDrawer/Build/Products/Debug-iphonesimulator/PathDrawer.app"36"2D9ED68D-130F-4E13-BEAA-8938E1C2D368-
+

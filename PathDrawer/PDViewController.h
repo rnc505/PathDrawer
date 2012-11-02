@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
-@interface PDViewController : UIViewController <MKMapViewDelegate>
+@interface PDViewController : UIViewController <MKMapViewDelegate, UIGestureRecognizerDelegate>
 typedef enum {
     kChoicePoint = 0,
     kPathConnector
