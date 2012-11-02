@@ -49,7 +49,6 @@
     }
     
     Polyline* _temp = [self initWithCoordinates:coords count:count];
-    free(coords);
     return _temp;
 //    CLLocationCoordinate2D coords[count];
 //    for(int i = 0; i < count; i++){
